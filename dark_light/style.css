@@ -1,0 +1,21 @@
+html,body{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#change{
+    padding:7px 12px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dark_mode{
+    background-color: black;
+    color: aliceblue;
+}
+.light_mode{
+    background-color: white;
+    color: black;
+
+}

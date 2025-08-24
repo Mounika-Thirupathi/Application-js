@@ -1,0 +1,20 @@
+html,body{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.btn{
+    padding: 12px,24px;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+.btn_red{
+    background-color: red;
+}
+
+.btn_green{
+    background-color: green;
+}
+.btn_orange{
+    background-color: orange;
+}

@@ -1,0 +1,12 @@
+html,body{
+    margin-top:5%;
+    margin-left:20%;
+}
+#btn{
+  
+    padding:7px 70px;
+    background-color: black;
+    color: aliceblue;
+    border-radius:5px;
+    cursor: pointer;
+}
