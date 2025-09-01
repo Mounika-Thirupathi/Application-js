@@ -1,6 +1,7 @@
 html,body{
     margin-top: 10%;
     margin-left: 20%;
+    background-color:  gray;
 }
 #text{
     padding:7px 12px;
@@ -14,5 +15,5 @@ html,body{
     color: aliceblue;
     font-size:medium;
     cursor: pointer;
-
 }
+

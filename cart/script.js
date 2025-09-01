@@ -1,5 +1,5 @@
 let arr = [];
-function button() {
+function addItem() {
   let res = document.getElementById("text").value;
   if(res.trim() !== ""){  
     arr.push(res);
@@ -9,4 +9,4 @@ function button() {
   } else {
     alert("Please enter a food item!");
   }
-}
+}   
