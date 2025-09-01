@@ -1,20 +1,33 @@
 html,body{
     margin-top: 10%;
     margin-left: 20%;
-}
-.btn{
-    padding: 12px,24px;
-    border-radius: 5px;
-    cursor:pointer;
-
+    font-family: Arial,sans-serif;
 }
 .btn_red{
     background-color: red;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin:5px;
+    border:1px solid black;
+    color:white;
 }
 
 .btn_green{
     background-color: green;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin:5px;
+    border:1px solid black;
+    color: white;
 }
 .btn_orange{
     background-color: orange;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin:5px;
+    border:1px solid black;
+    color: white;
 }
