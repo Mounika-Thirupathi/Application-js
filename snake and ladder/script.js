@@ -1,5 +1,4 @@
 
-
 let players=[ {name:'sri valli',color:"blue",score:0},{name: 'balaji',color:"red",score:0}, {name:'praveen',color:"yellow",score:0}, {name:'srinivas',color:"green",score:0} ]
 let h1_element =document.createElement("h1")
 

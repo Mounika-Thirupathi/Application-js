@@ -7,11 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Traffic Signals</h1>
-    <button onclick="green()"class="btn btn_green" >Green</button>
-    <button onclick="orange()"class="btn btn_orange">Orange</button>
-    <button onclick="red()" class="btn btn_red">Red</button>
+<div id="containers">
+    <h1 id="user">Traffic Signals</h1>
+    <div id="container">
+        <div class="btn">
+    <button onclick="green()"class="btn btn_green" >G</button>
+    </div>
+    <div class="btn">
+    <button onclick="orange()"class="btn btn_orange">O</button>
+    </div>
+    <div class="btn">
+    <button onclick="red()" class="btn btn_red">R</button>
+    </div>
     <h2 id="color">Waiting....</h2>
+    </div>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>

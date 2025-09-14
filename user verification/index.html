@@ -6,15 +6,28 @@
     <link rel="stylesheet"href="style.css">
     <title>Document</title>
 </head>
+<style>
+    p{
+        margin-left: 100px;
+        font-size: larger;
+
+    }
+
+</style>
 <body>
-    <h1>User Login Form</h1>
-    <input id="name"type="text">
+    <form id="container">
+    <h1 style="margin-left: 120px;">User Login Form</h1>
+    <input id="name"type="text" placeholder="Enter Your Name">
     <br/>
-    <input id="pwd"type="password">
+    <input id="pwd"type="password" placeholder="Enter Your Password">
     <br/>
-    <button onclick="display()" id="btn">Submit</button>
+    <input id="check" type="checkbox" onclick="toggle()">
+    <label style="font-size: larger;" for="showPassword">Show Password</label>
+    <br/>
+    <button onclick="display(event)" id="btn">Submit</button>
     <br/>
     <p id="message"></p>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>
